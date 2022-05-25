@@ -1,7 +1,29 @@
 <head>
     <title>Моё портфолио</title>
 </head>
+<style>
+    body{
+        background-color: #0AA1DD;
 
+        color: #180A0A;
+    }
+    table{
+        border:3px solid black;
+        border-radius: 5px;
+    }
+    tr{
+        border:3px solid black;
+    }
+    td{
+        border:2px solid black; 
+    }
+    .odd{
+        background-color: #E8F9FD;
+    }
+    .even{
+        background-color: #79DAE8;
+    }
+</style>
 <body>
     <table>
         <tr>
@@ -26,19 +48,19 @@
     <hr>
     <h3>Мои любимые кружки</h3>
     <table>
-        <tr>
+        <tr class = "odd">
             <td>Баскетбол</td>
             <td>⭐⭐⭐⭐⭐</td>
         </tr>
-        <tr>
+        <tr class="even">
             <td>Шахматы</td>
             <td>⭐</td>
         </tr>
-        <tr>
+        <tr class = "odd">
             <td>Arduino</td>
             <td>⭐⭐⭐</td>
         </tr>
-        <tr>
+        <tr class="even">
             <td>Web</td>
             <td>⭐</td>
         </tr>
@@ -46,30 +68,62 @@
     <hr>
     <h3>Мои любимые уроки</h3>
     <table>
-        <tr>
+        <tr class = "odd">
             <td>Матеха</td>
             <td>⭐⭐⭐⭐⭐</td>
             <td>Физ-ра</td>
             <td>⭐⭐⭐⭐⭐</td>
 
         </tr>
-        <tr>
+        <tr class="even">
             <td>Русский</td>
             <td>⭐</td>
             <td>Чтение</td>
             <td>⭐</td>
         </tr>
-        <tr>
+        <tr class = "odd">
             <td>Окружка</td>
             <td>⭐</td>
             <td>Музыка</td>
             <td>⭐</td>
 
         </tr>
-        <tr>
+        <tr class="even">
             <td>Технол</td>
             <td>⭐</td>
 
         </tr>
     </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Достижения</th>
+            <th>Уровень</th>
+            <th>Место проведения</th>
+            <th>Дата</th>
+        </tr>
+        <tr class="odd">
+            <td>I место в составе команды "Боровичи" на соревнаваниях по баскетболу</td>
+            <td>Региональный</td>
+            <td>Г.Петрозаводск,Карелия</td>
+            <td>13 апреля 2022-16 апреля 2022</td>
+        </tr>
+        <tr class="even">
+            <td>I место на соревнаваниях по плаванью</td>
+            <td>Областной</td>
+            <td>пос.Хвойная,Новгородская обл.</td>
+            <td>октябрь 2021</td>
+        </tr>
+        <tr class="odd">
+            <td>II место на соревнаваниях по плаванью</td>
+            <td>Областной</td>
+            <td>пос.Хвойная,Новгородская обл.</td>
+            <td>октябрь 2021???</td>
+        </tr>
+    </table>
+    <hr>
+    <p>I место в составе команды "Боровичи" на соревнаваниях по баскетболу</p>
+    <img src="diplom.jpg" width="300">
+    <p>I место на соревнаваниях по плаванью</p>
+    <img src="diplom.jpg" width="300">
 </body>
