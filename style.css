@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+body{
+    background-color: #0AA1DD;
+    font-family: 'Mulish', sans-serif;
+    color: #180A0A;
+}
+table{
+    border:3px solid black;
+    border-radius: 5px;
+}
+tr{
+    border:3px solid black;
+}
+h3{
+    font-family: 'Lora', serif;
+}
+td{
+    border:2px solid black; 
+}
+hr{
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: #FFEF82;
+    width: 30%;
+    margin: 20px auto;
+}
+.odd{
+    background-color: #E8F9FD;
+}
+.even{
+    background-color: #79DAE8;
+}
+.top{
+    width: 100%;
+    background-color: #63b2be;
+    text-align: center;
+    padding-top:200px;
+}
+.mountain{
+    position: absolute;
+    margin: 0 auto;
+    right: 0px;
+    left:0px;
+}
+
+.top_cloud{
+    position: absolute;
+    left: 500px;
+    top:50px;
+    transition: 1s;
+}
+
+.top_cloud:hover{
+    position: absolute;
+    left: 408px;
+    top:80px;
+    transition: 1s;
+}
+
+.bottom_cloud{
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    transition: 1s;
+}
+.bottom_cloud:hover{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    transition: 1s;
+}
+.k{
+    left: 0px;
+    right: 0;
+    transition: 1s;
+}
+.k:hover{
+    padding-left: 30px;
+    padding-top:30px;
+    transition: 1s;
+}
+.lob{
+    text-align: center;   
+}
+.diplom{
+    left: 0px;
+    right: 0;
+    transition: 1s;
+}
+.diplom:hover{
+    padding-left: 50px;
+    padding-top:30px;
+    transition: 1s;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.hrfugrugougfohgafogfoigoidh{
+    display: flex;
+    margin-left: 40%;
+    text-align: center;
+    flex-direction: column;
+    width: 20%;
+    transition: 1s;
+}
+.hrfugrugougfohgafogfoigoidh:hover{
+    display: flex;
+    margin-left: 38%;
+    text-align: center;
+    flex-direction: column;
+    width: 25%;
+    transition: 1s;
+}

@@ -1,136 +1,124 @@
 <head>
-    <title>Моё портфолио</title>
+  <title>Моё портфолио</title>
+  <link rel="icon" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<style>
-    body{
-        background-color: #0AA1DD;
-
-        color: #180A0A;
-    }
-    table{
-        border:3px solid black;
-        border-radius: 5px;
-    }
-    tr{
-        border:3px solid black;
-    }
-    td{
-        border:2px solid black; 
-    }
-    hr{
-        border-style: dotted none none;
-        border-width: 10px;
-        border-color: #FFEF82;
-        width: 30%;
-        margin: 20px auto;
-    }
-    .odd{
-        background-color: #E8F9FD;
-    }
-    .even{
-        background-color: #79DAE8;
-    }
-</style>
 <body>
-    <table>
-        <tr>
-            <td><img src="face.jpg" width="300"></td>
-            <td>
-                <h3>Тимофей Савин</h3>
-                <p>Я школьник который не любит учить уроки и начинающий программист.</p>
+  <div class="top">
+    <img class="top_cloud" src="cloud.png" />
+    <div class = "top_header">
+      <h3>Привет, это сайт Тимофея Савина</h3>
+      <p>Я школьник который не любит учить уроки и начинающий программист</p>
+    </div>
+    <img class="bottom_cloud" src="cloud.png" />
 
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Планы на лето</h3>
-    <ul>
-        <li>Играть в баскетбол</li>
-        <li>Кататся на велосепеде</li>
-        <li>Сделать гамак у бабушки</li>
-        <li>Поченить штаб</li>
-        <li>Бездельничать все лето</li>
-        <li>Схадить в поход</li>
-    </ul>
-    <hr>
-    <h3>Мои любимые кружки</h3>
-    <table>
-        <tr class = "odd">
-            <td>Баскетбол</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr class="even">
-            <td>Шахматы</td>
-            <td>⭐</td>
-        </tr>
-        <tr class = "odd">
-            <td>Arduino</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr class="even">
-            <td>Web</td>
-            <td>⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Мои любимые уроки</h3>
-    <table>
-        <tr class = "odd">
-            <td>Матеха</td>
-            <td>⭐⭐⭐⭐⭐</td>
-            <td>Физ-ра</td>
-            <td>⭐⭐⭐⭐⭐</td>
+    <img class="k"  src="mountain.png" />
+  </div>
+  <br>
+  <div class="flex">
+  <div class="hrfugrugougfohgafogfoigoidh">
+    <img class="kij" src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/aa/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%D0%A8%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BF%D0%BE_%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D1%83.jpg/250px-%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%D0%A8%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BF%D0%BE_%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D1%83.jpg" />
+    
+    <button><a href="https://www.youtube.com/watch?v=H6kJf5QF4f4">Крутой фильм с Джеки</a></button>
+  </div>
+</div>
 
-        </tr>
-        <tr class="even">
-            <td>Русский</td>
-            <td>⭐</td>
-            <td>Чтение</td>
-            <td>⭐</td>
-        </tr>
-        <tr class = "odd">
-            <td>Окружка</td>
-            <td>⭐</td>
-            <td>Музыка</td>
-            <td>⭐</td>
-
-        </tr>
-        <tr class="even">
-            <td>Технол</td>
-            <td>⭐</td>
-
-        </tr>
-    </table>
-    <hr>
-    <table>
-        <tr>
-            <th>Достижения</th>
-            <th>Уровень</th>
-            <th>Место проведения</th>
-            <th>Дата</th>
-        </tr>
-        <tr class="odd">
-            <td>I место в составе команды "Боровичи" на соревнаваниях по баскетболу</td>
-            <td>Региональный</td>
-            <td>Г.Петрозаводск,Карелия</td>
-            <td>13 апреля 2022-16 апреля 2022</td>
-        </tr>
-        <tr class="even">
-            <td>I место на соревнаваниях по плаванью</td>
-            <td>Областной</td>
-            <td>пос.Хвойная,Новгородская обл.</td>
-            <td>октябрь 2021</td>
-        </tr>
-        <tr class="odd">
-            <td>II место на соревнаваниях по плаванью</td>
-            <td>Областной</td>
-            <td>пос.Хвойная,Новгородская обл.</td>
-            <td>октябрь 2021???</td>
-        </tr>
-    </table>
-    <hr>
-    <p>I место в составе команды "Боровичи" на соревнаваниях по баскетболу</p>
-    <img src="diplom.jpg" width="300">
-    <p>I место на соревнаваниях по плаванью</p>
-    <img src="diplom.jpg" width="300">
+  <hr />
+  <h3>Планы на лето</h3>
+  <ul>
+    <li>Играть в баскетбол</li>
+    <li>Кататся на велосепеде</li>
+    <li>Сделать гамак у бабушки</li>
+    <li>Поченить штаб</li>
+    <li>Бездельничать все лето</li>
+    <li>Схадить в поход</li>
+  </ul>
+  <hr />
+  <h3>Мои любимые кружки</h3>
+  <table>
+    <tr class="odd">
+      <td>Баскетбол</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr class="even">
+      <td>Шахматы</td>
+      <td>⭐</td>
+    </tr>
+    <tr class="odd">
+      <td>Arduino</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr class="even">
+      <td>Web</td>
+      <td>⭐</td>
+    </tr>
+  </table>
+  <hr />
+  <h3>Мои любимые уроки</h3>
+  <table>
+    <tr class="odd">
+      <td>Матеха</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Физ-ра</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr class="even">
+      <td>Русский</td>
+      <td>⭐</td>
+      <td>Чтение</td>
+      <td>⭐</td>
+    </tr>
+    <tr class="odd">
+      <td>Окружка</td>
+      <td>⭐</td>
+      <td>Музыка</td>
+      <td>⭐</td>
+    </tr>
+    <tr class="even">
+      <td>Технол</td>
+      <td>⭐</td>
+    </tr>
+  </table>
+  <hr />
+  <table>
+    <tr>
+      <th>Достижения</th>
+      <th>Уровень</th>
+      <th>Место проведения</th>
+      <th>Дата</th>
+    </tr>
+    <tr class="odd">
+      <td>
+        I место в составе команды "Боровичи" на соревнаваниях по баскетболу
+      </td>
+      <td>Региональный</td>
+      <td>Г.Петрозаводск,Карелия</td>
+      <td>13 апреля 2022-16 апреля 2022</td>
+    </tr>
+    <tr class="even">
+      <td>I место на соревнаваниях по плаванью</td>
+      <td>Областной</td>
+      <td>пос.Хвойная,Новгородская обл.</td>
+      <td>октябрь 2021</td>
+    </tr>
+    <tr class="odd">
+      <td>II место на соревнаваниях по плаванью</td>
+      <td>Областной</td>
+      <td>пос.Хвойная,Новгородская обл.</td>
+      <td>октябрь 2021???</td>
+    </tr>
+  </table>
+  <hr />
+  <div class="lob">
+  <p>I место в составе команды "Боровичи" на соревнаваниях по баскетболу</p>
+  <img class="diplom" src="diplom.jpg" width="300" />
+  <p>I место на соревнаваниях по плаванью</p>
+  <img class="diplom" src="diplom.jpg" width="300" />
+</div>
 </body>
