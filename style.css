@@ -215,3 +215,42 @@ td{
     font-size: 30px;
     color: #FFE69A;
 }
+.blocks{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.block{
+    padding: 45px 25px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    margin-right: 2%;
+    border: 1px rgba(77, 87, 222, 0.3) solid;
+    border-radius: 30px;
+}
+.block:hover{
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background: #fff;
+    transition: 00.5s;
+}
+.blocks_insinde{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block_img{
+    display: flex;
+    margin-top: 20px;
+    width: 95%;
+}
