@@ -5,27 +5,24 @@
     margin: 0;
 }
 body{
-    background-color: #a6ccdc;
+    background-color: #11CBD7;
     font-family: 'Mulish', sans-serif;
     color: #180A0A;
 }
 table{
-    border:3px solid black;
+    border:3px solid #11CBD7;
     border-radius: 5px;
 }
 tr{
-    border:3px solid black;
+    border:3px solid #11CBD7;
 }
 h3{
     font-family: 'Lora', serif;
-}
-td{
-    border:2px solid black; 
-}
+} 
 hr{
     border-style: dotted none none;
     border-width: 10px;
-    border-color: #FFEF82;
+    border-color: #F0FFF3;
     width: 30%;
     margin: 20px auto;
 }
@@ -33,11 +30,11 @@ hr{
     background-color: #E8F9FD;
 }
 .even{
-    background-color: #79DAE8;
+    background-color: #C6F1E7;
 }
 .top{
     width: 100%;
-    background-color: #63b2be;
+    background-color: #C6F1E7;
     text-align: center;
     padding-top:200px;
 }
@@ -158,23 +155,23 @@ hr{
 
 li {
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 
 }
 
 h3{
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 
 }
 p{
     font-size: 20px;
-    color: #FFE69A;
+    color: #FA4659;
 
 }
 h2{
     font-size: 25px;
-    color: #FFE69A;
+    color: #FA4659;
 
 }
 td{
@@ -184,7 +181,7 @@ td{
 }
 
 .top_header{
-    color: #FFD24C
+    color: #FA4659
 }
 
 .top_header_h3{
@@ -198,22 +195,22 @@ td{
 
 .intro {
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 }
 
 .p {
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 }
 
 .j{
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 }
 
 .k {
     font-size: 30px;
-    color: #FFE69A;
+    color: #FA4659;
 }
 .blocks{
     position: relative;
@@ -262,11 +259,11 @@ td{
 }
 .o{
     font-size: 30px;
-    color: #FFE69A; 
+    color: #FA4659; 
 }
 .l{
     font-size: 30px;
-    color: #FFE69A;  
+    color: #FA4659;  
 }
 
 .j{
@@ -292,12 +289,12 @@ td{
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #180A0A;
+    color: #FA4659;
 }
 
 .feature_item h4{
     margin-bottom: 0px;
-    color: #180A0A;
+    color: #FA4659;
 }
 
 .feature_item:hover{
@@ -333,5 +330,5 @@ li:nth-child(9n){
     object-fit: cover;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 4px;
-    background-color: white;
+    background-color: #F0FFF3;
 }
